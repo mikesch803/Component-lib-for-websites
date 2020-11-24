@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 750px;
+    margin: auto;
+    
+}
+
+.centered{
+    text-align: center;
+}
+ .plinks{
+    text-decoration: none;
+    color: white;
+    background-color: #FBBF24;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0 1rem 2rem 0;
+
+    
+}
+
+.slinks{
+    text-decoration: none;
+    color: #FBBF24;
+    border: 1px solid;
+    border-radius: 0.5rem;
+ padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0 0 2rem 0;
+}
+
+.hr{
+    margin-top: 2rem;
+}
+
+.unordered-list ul{
+    list-style: none;
+}
+
+.inline-list ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.inline-list ul li{
+    padding: 1rem;
+}
+
+.navigation{
+   background: #FBBF24;
+   border-bottom-left-radius: 0.5rem;
+}
+
+.nav-bottom-margin{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0 0 0.5rem;
+}
+
+.navigation ul li{
+    list-style: none;
+   display: inline;
+   padding: 1rem;
+}
+
+.navigation ul{
+    text-align: right;
+    padding: 1rem;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+header h1{
+    color: gray;
+}
+
+
+
+section h2{
+text-align: center;
+}
+
+section{
+    padding-bottom: 2rem;
+    padding: 1rem;
+}
+
+
+
+section a{
+    background: #FBBF24;
+    border-radius: 0.5rem;
+    color: aliceblue;
+    padding: 0.5rem ;
+    border-color: #FBBF24;
+    border: none;
+    text-decoration: none;
+}
+
+.off-white{
+    background:#F3F4F6;
+    
+    
+}
+
+.off-white h2{
+    padding: 1rem;
+}
+
+.off-white p{
+    padding: 0.5rem;
+
+}
+
+
+footer{
+    background: #FBBF24;
+    border-top-right-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem  0;
+    font-size: 1.2rem;
+}
+.section-margin{
+    margin: 0rem;
+}
+
+footer ul{
+    padding: 0;
+}
+
+
+footer ul li{
+    display: inline;
+list-style: none;
+padding: 0 1rem;
+}
+
+
+
+
+
+
+
