@@ -148,7 +148,11 @@ footer ul li{
     display: inline;
 list-style: none;
 padding: 0 1rem;
-text-decoration: none;
+
+}
+
+footer ul li a{
+    text-decoration: none;
 }
 
 .project-list a{
