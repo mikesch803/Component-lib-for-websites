@@ -4,8 +4,11 @@
 body{
     font-family: 'Raleway', sans-serif;
     max-width: 700px;
-    margin: auto; 
-    
+    margin: auto;   
+}
+
+:root{
+    --main-color: #374151;
 }
 
 .centered{
@@ -50,8 +53,7 @@ body{
 }
 
 .navigation{
-   background: #FBBF24;
-   
+   background: var(--main-color);
    margin: 0rem;
 }
 
@@ -92,7 +94,7 @@ header h1{
 }
 
 span{
-    color: #FBBF24;
+    color: var(--main-color);
 }
 
 
@@ -110,11 +112,11 @@ section{
 
 
 section a{
-    background: #FBBF24;
+    background: var(--main-color);
     border-radius: 0.5rem;
     color: aliceblue;
     padding: 0.5rem ;
-    border-color: #FBBF24;
+    border-color: var(--main-color);
     border: none;
     text-decoration: none;
 }
@@ -130,7 +132,7 @@ section a{
 
 
 footer{
-    background: #FBBF24;
+    background: var(--main-color);
     
     text-align: center;
     padding: 1rem  0;
@@ -138,6 +140,7 @@ footer{
 }
 .section-margin{
     margin: 0rem;
+    color: white;
     
 }
 
