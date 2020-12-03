@@ -55,9 +55,8 @@ body{
 }
 
 .nav-bottom-margin{
-    
-    
     padding: 1rem 0 0 0.5rem;
+    margin: auto;
 }
 
 .navigation ul li{
