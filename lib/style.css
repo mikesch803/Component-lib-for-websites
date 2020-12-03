@@ -57,6 +57,7 @@ body{
 .nav-bottom-margin{
     padding: 1rem 0 0 0.5rem;
     margin: auto;
+    color: white;
 }
 
 .navigation ul li{
@@ -72,6 +73,7 @@ body{
 
 .navigation ul li a{
     text-decoration: none;
+    color: white;
 }
 
 header{
@@ -152,6 +154,7 @@ padding: 0 1rem;
 
 footer ul li a{
     text-decoration: none;
+    color: white;
 }
 
 .project-list a{
