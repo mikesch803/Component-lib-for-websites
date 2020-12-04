@@ -86,6 +86,21 @@ header {
     margin: auto;
 }
 
+.blog-image{
+        max-width: 400px;
+        margin: auto;
+}
+
+.lapi-image {
+max-width: 400px;
+margin: auto;
+}
+
+.program-image {
+    max-width: 600px;
+    margin: auto;
+}
+
 header h1 {
     color: gray;
 }
@@ -158,3 +173,4 @@ footer ul li a {
 p{
   text-align: justify;
 }
+
