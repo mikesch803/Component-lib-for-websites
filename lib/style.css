@@ -1,186 +1,184 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 body {
-    font-family: 'Raleway', sans-serif;
-    max-width: 700px;
-    margin: auto;
+  font-family: "Raleway", sans-serif;
+  max-width: 700px;
+  margin: auto;
 }
 
+
 :root {
-    --main-color: #374151;
+  --main-color: #374151;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 .plinks {
-    text-decoration: none;
-    color: white;
-    background-color: #FBBF24;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    margin: 0 1rem 2rem 0;
+  text-decoration: none;
+  color: white;
+  background-color: #fbbf24;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 0 1rem 2rem 0;
 }
 
 .slinks {
-    text-decoration: none;
-    color: #FBBF24;
-    border: 1px solid;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    margin: 0 0 2rem 0;
+  text-decoration: none;
+  color: #fbbf24;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 0 0 2rem 0;
 }
 
 .hr {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .unordered-list ul {
-    list-style: none;
+  list-style: none;
 }
 
 .inline-list ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .inline-list ul li {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .navigation {
-    background: var(--main-color);
-    margin: 0rem;
+  background: var(--main-color);
+  margin: 0rem;
 }
 
 .nav-bottom-margin {
-    padding: 1rem 0 0 0.5rem;
-    margin: auto;
-    color: white;
+  padding: 1rem 0 0 0.5rem;
+  margin: auto;
+  color: white;
 }
 
 .navigation ul li {
-    list-style: none;
-    display: inline;
-    padding: 1rem;
+  list-style: none;
+  display: inline;
+  padding: 1rem;
 }
 
 .navigation ul {
-    text-align: right;
-    padding: 1rem;
+  text-align: right;
+  padding: 1rem;
 }
 
 .navigation ul li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 header {
-    text-align: center;
-    padding: 0.5rem;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 .hero {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
 }
 
-.blog-image{
-        max-width: 100%;
-        max-height: 100%;
-        display: block;
-        margin: auto;
+.blog-image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
 }
 
 .lapi-image {
-max-width: 75%;
-max-height: 75%;
-display: block;
-margin: auto;
+  max-width: 75%;
+  max-height: 75%;
+  display: block;
+  margin: auto;
 }
 
 .program-image {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
 }
 
 header h1 {
-    color: gray;
+  color: gray;
 }
 
 span {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 section h2 {
-    text-align: center;
+  text-align: center;
 }
 
 section {
-    padding-bottom: 2rem;
-    padding: 1rem;
-    border: 2rem;
+  padding-bottom: 2rem;
+  padding: 1rem;
+  border: 2rem;
 }
 
 section a {
-    background: var(--main-color);
-    border-radius: 0.5rem;
-    color: aliceblue;
-    padding: 0.5rem;
-    border-color: var(--main-color);
-    border: none;
-    text-decoration: none;
+  background: var(--main-color);
+  border-radius: 0.5rem;
+  color: aliceblue;
+  padding: 0.5rem;
+  border-color: var(--main-color);
+  border: none;
+  text-decoration: none;
 }
 
 .off-white {
-    background: #F3F4F6;
+  background: #f3f4f6;
 }
 
 .off-white h2 {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 footer {
-    background: var(--main-color);
-    text-align: center;
-    padding: 1rem 0;
-    font-size: 1.2rem;
+  background: var(--main-color);
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.2rem;
 }
 
 .section-margin {
-    margin: 0rem;
-    color: white;
+  margin: 0rem;
+  color: white;
 }
 
 footer ul {
-    padding: 0;
+  padding: 0;
 }
 
-
 footer ul li {
-    display: inline;
-    list-style: none;
-    padding: 0 1rem;
+  display: inline;
+  list-style: none;
+  padding: 0 1rem;
 }
 
 footer ul li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .project-list a {
-    text-decoration: none;
-    padding: 2rem 0 2rem 0;
+  text-decoration: none;
+  margin: 1rem 0 1rem 0;
+  padding: 0.5rem;
 }
 
-p{
+p {
   text-align: justify;
 }
-
-
-
